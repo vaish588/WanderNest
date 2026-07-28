@@ -1,0 +1,362 @@
+body {
+    margin: 0px;
+    background-color: #fff;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.temperature {
+    display: flex;
+    gap: 167px;
+    color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.b {
+    font-family: cursive;
+    font-size: 35px;
+}
+
+.c {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.d nav a {
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 35px;
+
+
+}
+
+.d nav a:hover {
+    background-color: rgb(21, 4, 68);
+    border-radius: 15px;
+
+}
+
+.lamp {
+    color: #fff;
+    background-color: #ff9c07;
+    border-radius: 8px;
+    border: 2px;
+    padding: 8px 18px 8px 18px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.lamp:hover {
+    font-size: 35px;
+    background-color: rgb(175, 145, 255);
+}
+
+.temperatur {
+    color: #fff;
+    padding-left: 150px;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.temperatur i {
+    font-size: 60px;
+    color: #ff9c07;
+    font-family: cursive;
+}
+
+.temperatur pre {
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.f img {
+    border-radius: 15px;
+    
+}
+
+.temperatu .e {
+    display: flex;
+    position: absolute;
+    top: 870px;
+
+    background-color: #fff;
+    border: 5px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 15px 20px rgb(63, 61, 61);
+
+    margin-left: 400px;
+padding: 25px;
+
+    gap: 150px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.f {
+    display: flex;
+    gap: 10px;
+}
+
+.g {
+    text-align: center;
+}
+.g b{
+    font-size: 30px;
+}
+.g p{
+    font-size: 20px;
+}
+g{
+    display: none;
+    position: absolute;
+}
+.g ul{
+    list-style: none;
+   font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+   
+}
+.g ul li{
+   display: inline-block;
+   position: relative;
+}
+.g ul li a{
+    color: #19176d;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+}
+.g ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(40, 199, 204);
+    padding: 0px;
+    margin: 0px;
+    min-width: 120px;
+}
+.g ul li ul li{
+    display: block;
+}
+.g ul li:hover ul{
+    display: block;
+}
+.g ul li a:hover{
+    background-color: #ebe7e7;
+   color: #051352;
+}
+.temperat pre {
+    color: #ff9c07;
+    font-size: large;
+
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.temperat b {
+    color: rgb(42, 42, 100);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.lam {
+    
+    background: rgb(4, 4, 54);
+    border: 2px;
+    border-radius: 15px;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.tempera {
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(280px, 1fr));
+    display: flex;
+    gap: 180px;
+    margin-left: 250px;
+    margin-top: 90px;
+}
+
+.h img {
+    border: 2px;
+    border-radius: 15px;
+
+}
+
+.h {
+
+    box-shadow: 0 25px 30px rgb(24, 21, 21);
+
+}
+.h b{
+    font-size: 25px;
+    justify-self: center;
+}
+.h p{
+    font-size: 20px;
+}
+span{
+    font-size: 30px;
+    color: rgb(2, 2, 43);
+}
+.h pre{
+    font-size: 18px;
+    color: black;
+}
+.temper{
+    
+    border: 15px;
+    border-radius: 15px;
+    background-color: rgb(176, 213, 214);
+    margin: 350px 215px 0px 215px;
+    justify-content: center;
+}
+.x {
+    display: flex;
+
+    gap:40px;
+}
+
+.v {
+    display: flex;
+
+    gap: 10px;
+
+}
+.v img{
+    border-radius: 85px;
+}
+
+.w b {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.w p {
+    font-size: 18px;
+    text-align: left;
+    color: rgb(19, 19, 3);
+}
+.tempe{
+    display: flex;
+    gap: 50px;
+   margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.i{
+     border: 2px;
+    border-radius: 22px;
+    background-color: beige;
+    text-align: center;
+overflow: hidden;
+box-shadow: 0px 15px 30px black;    
+}
+
+.i span{
+ font-size: 80px;
+ color: #ff9c07;
+}
+.i p{
+font-size: 25px;
+}
+.i b{
+    font-size: 25px;
+}
+.temp{
+    background-image: url(https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vdW50YWlufGVufDB8fDB8fHww);
+background-repeat: no-repeat;
+    background-size: cover;
+  background-position: center;
+display: flex;
+gap: 300px;
+}
+.z{
+    margin-left: 160px;
+    margin-top: 15px;
+}
+.z img{
+    border: 2px;
+    border-radius: 5px;
+}
+.z b{
+    font-size: 40px;
+    color: #fff;
+}
+.z p{
+    font-size: 20px;
+    color: #fff;
+}
+.y{
+    justify-content: center;
+    margin-top: 55px;
+    
+}
+.tem{
+    display: flex;
+    background-color: rgb(7, 7, 41);
+    color: #fff;
+    cursor: pointer;
+    gap: 150px;
+    
+}
+.n ul{
+    list-style: none;
+    
+}
+.n ul li a {
+   text-decoration: none;
+   padding: 5px;
+    color: beige;
+}
+
+.n {
+    color: beige;
+    font-size: 20px;
+}
+.n p{
+    font-size: 30px;
+}
+
+.o {
+    color: beige;
+    justify-content: right;
+    font-size: 20px;
+}
+.o p{
+    font-size: 30px;
+}
+
+.o pre {
+    font-family: sans-serif;
+}
+.c p{
+    font-size: 20px;
+}
+footer {
+    background-color: rgb(7, 7, 41);
+    padding-top: 2px;
+    color: beige;
+    text-align: center;
+    font-size: 20px;
+}
